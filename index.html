@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9;
+            background-color: #e0e0e0;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,9 +18,9 @@
         }
 
         .support-container {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
             padding: 20px 30px;
             text-align: center;
             max-width: 400px;
@@ -31,6 +31,7 @@
             color: #333333;
             font-size: 24px;
             margin-bottom: 15px;
+            text-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #bebebe;
         }
 
         p {
@@ -41,18 +42,20 @@
 
         a {
             display: inline-block;
-            color: #ffffff;
-            background-color: #007BFF;
+            color: #007BFF;
+            background-color: #e0e0e0;
             text-decoration: none;
             font-size: 16px;
             padding: 10px 20px;
-            border-radius: 5px;
+            border-radius: 30px;
             margin-top: 10px;
-            transition: background-color 0.3s ease;
+            box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
+            transition: all 0.3s ease;
         }
 
         a:hover {
-            background-color: #0056b3;
+            background-color: #d6d6d6;
+            box-shadow: inset 2px 2px 5px #ffffff, inset -2px -2px 5px #bebebe;
         }
 
         .email-link {
